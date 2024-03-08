@@ -37,46 +37,63 @@ const Home: NextPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {/* Example Project Cards */}
             <div className="border p-4 rounded-lg shadow-lg">
-              <h3 className="font-bold text-black text-xl mb-2">Project Title</h3>
-              <p className="text-black mb-4">Short project description.</p>
-              <a href="#" className="text-black hover:underline">View Live</a>
+              <h3 className="font-bold text-black text-xl mb-2"> Code-Whisperer | Capstone </h3>
+              
+              <p className="text-black mb-4">
+                Code Whisperer AI is a capstone project developed for Turing's Launch program,
+                showcasing the cumulative learning from mods 0 to 5. This individual project spaned two weeks and represents
+                a blend of skills and knowledge acquired through the rigorous program.
+              </p>
+              <a href="https://codewhispererai.azurewebsites.net" className="text-black hover:underline">View Live</a>
               {' | '}
-              <a href="#" className="text-black hover:underline">View GitHub</a>
+              <a href="https://github.com/joe10111/Code-Whisperer-AI" className="text-black hover:underline">View GitHub</a>
             </div>
             <div className="border p-4 rounded-lg shadow-lg">
-              <h3 className="font-bold text-black text-xl mb-2">Project Title</h3>
-              <p className="text-black mb-4">Short project description.</p>
-              <a href="#" className="text-black hover:underline">View Live</a>
-              {' | '}
-              <a href="#" className="text-black hover:underline">View GitHub</a>
+              <h3 className="font-bold text-black text-xl mb-2">LevelUp | Collaborative</h3>
+              <p className="text-black mb-4">
+                LevelUp is an innovative ASP.Net 
+                Core web application that melds task management with gamification. 
+                Offering a unique approach to accomplishing real-world tasks, 
+                promoting community connection, and visualizing personal growth.
+              </p>
+              <a href="https://github.com/Eli-J-Paris/LevelUp" className="text-black hover:underline">View GitHub</a>
             </div>
             <div className="border p-4 rounded-lg shadow-lg">
-              <h3 className="font-bold text-black text-xl mb-2">Project Title</h3>
-              <p className="text-black mb-4">Short project description.</p>
-              <a href="#" className="text-black hover:underline">View Live</a>
-              {' | '}
-              <a href="#" className="text-black hover:underline">View GitHub</a>
+              <h3 className="font-bold text-black text-xl mb-2">CCIPICL-API | Contract Work</h3>
+              <p className="text-black mb-4">
+                CCIPICL-ChatAssistant is a specialized REST API-driven chatbot designed to provide accurate, 
+                focused information on Craniocervical Instability (CCI) and Percutaneous Implantation of the Craniocervical Ligaments (PICL).
+              </p>
+              <a href="https://github.com/joe10111/CCIPICL-ChatAssistant" className="text-black hover:underline">View GitHub</a>
             </div>
             <div className="border p-4 rounded-lg shadow-lg">
-              <h3 className="font-bold text-black text-xl mb-2">Project Title</h3>
-              <p className="text-black mb-4">Short project description.</p>
-              <a href="#" className="text-black hover:underline">View Live</a>
-              {' | '}
-              <a href="#" className="text-black hover:underline">View GitHub</a>
+              <h3 className="font-bold text-black text-xl mb-2">Cappuccino-Chatter | Turing </h3>
+              <p className="text-black mb-4">
+               Mod 3 Turing Launch Project Cappuccino - Chatter is a social media messaging app developed using .NET C# MVC.
+                It has a unique focus on connecting coffee enthusiasts and fostering discussions around coffee-related topics.
+                Features: user authentication, messaging, and profile management.
+              </p>
+              <a href="https://github.com/joe10111/Cappuccino-Chatter" className="text-black hover:underline">View GitHub</a>
             </div>
             <div className="border p-4 rounded-lg shadow-lg">
-              <h3 className="font-bold text-black text-xl mb-2">Project Title</h3>
-              <p className="text-black mb-4">Short project description.</p>
-              <a href="#" className="text-black hover:underline">View Live</a>
-              {' | '}
-              <a href="#" className="text-black hover:underline">View GitHub</a>
+              <h3 className="font-bold text-black text-xl mb-2">GAM-150-WTFGO | College</h3>
+              <p className="text-black mb-4">
+                What The Food is Going On?! is an 2D cooking game developed during Digipen Summer 2021,
+                where players assume the role of a chef aiming to concoct various dishes under time constraints.
+                Developed in C using the Alpha Engine framework. As a developer in a team of four, 
+                my responsibilities spanned graphics, audio, and gameplay programming.
+              </p>
+              <a href="https://github.com/joe10111/GAM-150-WTFGO" className="text-black hover:underline">View GitHub</a>
             </div>
             <div className="border p-4 rounded-lg shadow-lg">
-              <h3 className="font-bold text-black text-xl mb-2">Project Title</h3>
-              <p className="text-black mb-4">Short project description.</p>
-              <a href="#" className="text-black hover:underline">View Live</a>
-              {' | '}
-              <a href="#" className="text-black hover:underline">View GitHub</a>
+              <h3 className="font-bold text-black text-xl mb-2">SCUBA-GAM-100 | College</h3>
+              <p className="text-black mb-4">
+                In the Spring semester of 2021, as part of a four-person team in the GAME 100 course at DigiPen Institute
+                of Technology, I served as the Systems Programmer for SCUBA-GAM-100. This scuba-themed endless runner,
+                crafted in C using the Alpha Engine framework, challenged players to adeptly pilot a submarine through
+                treacherous waters, evading sharks and jellyfish.
+              </p>
+              <a href="https://github.com/joe10111/SCUBA-GAM-100" className="text-black hover:underline">View GitHub</a>
             </div>
           </div>
         </section>
