@@ -1,7 +1,10 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
-import Link from 'next/link';
+import type { NextPage } from 'next'; //Import next js page
+import Head from 'next/head';         //Import next js head
+import Link from 'next/link';         //Import next js link
 
+// Below : Home page component, displays a welcome message.
+// Uses NextPage type for Next.js page.
+// Exported as default.
 const Home: NextPage = () => {
   return (
     <>
@@ -30,7 +33,7 @@ const Home: NextPage = () => {
 
         <section id="projects" className="py-8 px-4">
           <h2 className="text-3xl text-black font-bold text-center mb-8">Projects</h2>
-          {/* Replace with a dynamic list of projects */}
+          {/* Replace with a dynamic list of projects, TODO for later */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {/* Example Project Cards */}
             <div className="border p-4 rounded-lg shadow-lg">
