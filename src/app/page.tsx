@@ -27,8 +27,15 @@ const Home: NextPage = () => {
               <h1 className="text-4xl font-bold">Hello, I'm Joseph Centeno</h1>
               <p className="mt-2">A Backend Developer from Seattle. A proud graduate of The Launch Program at the Turing School of Software and Design, I specialize in C# and .NET, focusing on creating accessible software solutions. Currently, I'm expanding my expertise into game development, leveraging my C++ background to design immersive worlds for players.</p>
               <a href="#projects" className="mt-4 inline-block bg-secondary text-white py-2 px-4 rounded hover:bg-secondary-dark">View My Work</a>
+
+              <img 
+              src="/LaunchLogo.png" 
+              alt="Launch Link" 
+              className="w-full md:w-auto md:max-w-xs lg:max-w-sm rounded-lg" 
+              />
             </div>
           </div>
+          
         </section>
 
         <section id="projects" className="py-8 px-4">
